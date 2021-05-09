@@ -14,5 +14,11 @@ public class HomeController {
 		String response = "This is the response for home page .";
 		return ResponseEntity.ok(new MessageBody(response));
 	}
+	
+	@GetMapping(value="/gallery", produces="application/json")
+	public ResponseEntity<MessageBody> galleryMethod() {
+		String response = "This is the response for gallery page .";
+		return ResponseEntity.ok(new MessageBody(response));
+	}
 
 }
