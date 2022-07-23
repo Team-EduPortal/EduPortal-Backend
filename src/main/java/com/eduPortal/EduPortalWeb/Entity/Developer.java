@@ -1,4 +1,4 @@
-package com.eduPortal.Entity;
+package com.eduPortal.EduPortalWeb.Entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
